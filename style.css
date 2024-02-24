@@ -27,7 +27,7 @@ nav {
     width: 200px;
     height: 100%;
     z-index: 100;
-    /* transform: translateX(-100%); */
+    transform: translateX(-100%);
   }
 
   nav .logo{
@@ -67,7 +67,14 @@ nav {
   nav ul li a:hover{
     text-decoration: underline;
   }
-
+header{
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+    font-size: 130%;
+    padding: 40px 15px;
+    text-align: center;
+}
 
 
   
